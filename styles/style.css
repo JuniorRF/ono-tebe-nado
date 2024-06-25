@@ -1,1 +1,24 @@
-/* место для вашего кода */
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+   background-color: bisque;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 105px;
+  padding: 92px 50px;
+  background-color: gold; 
+}
+
+.header-links {
+  display: flex;
+  gap: 25px;
+  margin-left: 24px;
+}
+
+.header-logo {
+  width: 148px;
+  height: 105px;
+}
