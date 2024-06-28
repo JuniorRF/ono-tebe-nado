@@ -263,3 +263,12 @@ header {
 .pozition-text-two {
   grid-area: text2;
 }
+
+.footer {
+  max-width: 1000px;
+  max-height: 98px;
+  margin: 0 auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
