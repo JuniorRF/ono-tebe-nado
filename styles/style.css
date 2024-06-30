@@ -2,7 +2,6 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  background-color: bisque;
 }
 
 header {
@@ -11,7 +10,6 @@ header {
   align-items: center;
   height: 294px;
   padding: 92px 50px;
-  background-color: gold;
 }
 
 .header-links {
@@ -64,11 +62,11 @@ header {
 }
 
 .cover-title {
-  /* position: relative; */
+  position: relative;
+  top: 163px;
   width: 1000px;
   height: 355px;
-  /* margin: 165px auto 130px; */
-  padding: 165px 50px 237px;
+  margin: 0 auto;
   font-size: 100px;
   font-weight: 700;
   line-height: 122px;
@@ -95,17 +93,14 @@ header {
 
 .cover-description {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-left: 81px;
-  padding-right: 50px;
-  /* padding: 0px 50px 30px 144px; */
-  /* gap: 80; */
+  margin-top: 300px;
 }
 
 .subline {
-  position: relative;
-  font-weight: 400;
+  width: 637px;
+  margin-left: 28px;
   z-index: 10;
   font-size: 22px;
   line-height: 28px;
@@ -207,7 +202,7 @@ header {
 .about {
   max-width: 1052px;
   max-height: 595px;
-  margin: 148px auto 0;
+  margin: 183px auto 0;
   display: grid;
   grid-template-columns: 334px auto;
   grid-template-rows: repeat(3, 1fr);
@@ -267,8 +262,22 @@ header {
 .footer {
   max-width: 1000px;
   max-height: 98px;
-  margin: 0 auto 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  margin: 143px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer-menu {
+  text-align: center;
+}
+
+.footer__social-list {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
