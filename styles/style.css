@@ -83,19 +83,18 @@
 
 .cover-description {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  gap: 79px;
   align-items: center;
   margin-top: 74px;
 }
 
 .subline {
-  margin-left: 28px;
   z-index: 10;
   font-size: 22px;
-  line-height: 28px;
-  letter-spacing: 3px;
   text-transform: uppercase;
-  word-spacing: 1px;
+  word-spacing: .9em;
+  /* Гугл хром с процентами не дружит, надеюсь то, что нужно */
 }
 
 .button {
@@ -107,6 +106,7 @@
   font-size: 22px;
   z-index: 10;
   text-transform: uppercase;
+  margin-right: 50px;
 }
 
 .lots {
@@ -192,7 +192,6 @@
 
 .about {
   max-width: 1052px;
-  max-height: 595px;
   margin: 183px auto 0;
   display: grid;
   grid-template-columns: 334px auto;
@@ -236,7 +235,8 @@
 
 .footer {
   max-width: 1000px;
-  margin: 180px auto 25px;
+  margin: 180px auto 88px;
+  /* надеюсь ты это имеешь ввиду */
   display: flex;
   justify-content: space-between;
 }
