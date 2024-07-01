@@ -196,14 +196,11 @@
   margin: 183px auto 0;
   display: grid;
   grid-template-columns: 334px auto;
-  grid-template-rows: repeat(3, 1fr);
-  /* box-sizing: content-box; */
   justify-content: center;
   align-items: center;
   gap: 0 25px;
   grid-template-areas:
     "logo title "
-    ". paragraf"
     ". paragraf";
 }
 
@@ -233,13 +230,13 @@
   grid-area: paragraf;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   font-size: 20px;
 }
 
 .footer {
   max-width: 1000px;
-  margin: 143px auto 0;
+  margin: 180px auto 25px;
   display: flex;
   justify-content: space-between;
 }
