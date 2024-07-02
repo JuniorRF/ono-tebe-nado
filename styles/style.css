@@ -94,7 +94,6 @@
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: .9em;
-  /* Гугл хром с процентами не дружит, надеюсь то, что нужно */
 }
 
 .button {
@@ -236,7 +235,6 @@
 .footer {
   max-width: 1000px;
   margin: 180px auto 88px;
-  /* надеюсь ты это имеешь ввиду */
   display: flex;
   justify-content: space-between;
 }
